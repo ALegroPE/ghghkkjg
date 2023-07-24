@@ -7,8 +7,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 250vw;
-  height: 250vh;
+  width: 40vw;
+  height: 40vh;
   background-color: #202020;
   overflow: hidden;
 }
@@ -19,8 +19,8 @@ body{
 
 .contenedor-ruleta::before{
   content: "";
-  width: 180px;
-  height: 180px;
+  width: 60px;
+  height: 60px;
   background-color: white;
   position: absolute;
   z-index: 99999;
